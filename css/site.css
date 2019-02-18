@@ -1,64 +1,75 @@
 body {
-	font-family: 'Comfortaa', cursive;
-	/* font-family: 'Poiret One', cursive; */
-	background-color: #e0e0e0;
-	overflow-x: hidden;
-	overflow-y: scroll;
+    font-family: 'Comfortaa', cursive;
+    /* font-family: 'Poiret One', cursive; */
+    background-color: #e0e0e0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.main-container{
-	margin-top: 2%;
+.main-container {
+    margin-top: 2%;
 }
 
-.z-index-1{
-	z-index: -1;
+.z-index-1 {
+    z-index: -1;
 }
 
-.sabit{
-	position: fixed !important;
+.sabit {
+    position: fixed !important;
 }
 
 .profile-img-left-bar {
-	width: 250px;
+    width: 250px;
 }
 
-.card-rounded{
-	border-radius: 15px;
+.card-rounded {
+    border-radius: 15px;
 }
 
 .card {
-	box-shadow: #8c8c8c 0 10px 15px ;
+    box-shadow: #8c8c8c 0 10px 15px;
 }
 
-.bg-current{
-	background-color: #007bff;
+.bg-current {
+    background-color: #007bff;
 }
 
-.profile-menu{
-	padding-top: 15px;
-	list-style-type: none;
+.profile-menu {
+    padding-top: 15px;
+    list-style-type: none;
 }
 
 .profile-menu a {
-	color: #fff;
+    color: #fff;
 }
 
-.profile-menu .header{
-	font-weight: bold;
-	text-transform: uppercase;
+.profile-menu .header {
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 /*.fa{*/
-	/*margin-left: 3px;*/
-	/*margin-right: 3px;*/
+/*margin-left: 3px;*/
+/*margin-right: 3px;*/
 /*}*/
 
 .list-transform {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .header {
-	margin-left: -10px;
-	font-weight: bold;
-	text-transform: uppercase;
+    margin-left: -10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.profile-image {
+    position:absolute;
 }
